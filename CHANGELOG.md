@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/MuchaSsak/home-budget/compare/v1.0.1...v1.0.2) (2023-12-07)
+
+
+### Bug Fixes
+
+* lazy code-splitting caused problems ([6c43d0c](https://github.com/MuchaSsak/home-budget/commit/6c43d0c93ef04961ec53583ce6cb20fbf181260c)), closes [#426](https://github.com/MuchaSsak/home-budget/issues/426)
+
+
+
 ## [1.0.1](https://github.com/MuchaSsak/home-budget/compare/v1.0.0...v1.0.1) (2023-12-07)
 
 
