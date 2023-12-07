@@ -1,14 +1,12 @@
-import { lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { useBudgets } from "./contexts/BudgetsContext";
-
-const Homepage = lazy(() => import("./pages/Homepage"));
-const PageNotFound = lazy(() => import("./pages/PageNotFound"));
-const Dashboard = lazy(() => import("./pages/Dashboard"));
-const BudgetDetails = lazy(() => import("./pages/BudgetDetails"));
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
+import Dashboard from "./pages/Dashboard";
+import BudgetDetails from "./pages/BudgetDetails";
 
 function App() {
   const {
